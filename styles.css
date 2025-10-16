@@ -1,0 +1,41 @@
+/* Reset suave */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Tipografía y colores base */
+html { font-size: 16px; }
+body {
+  font-family: system-ui, Arial, sans-serif;
+  color: #222;
+  background-color: #fafafa;
+  line-height: 1.6;
+  padding: 24px;
+}
+
+/* Títulos */
+h1 { font-size: 2rem; margin-bottom: 16px; }
+h2 { font-size: 1.5rem; margin: 20px 0 10px; }
+
+/* Listas y links */
+ul, ol { margin-left: 24px; margin-bottom: 16px; }
+a { color: #0a66c2; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Imagen receta */
+.recipe-hero {
+  display: block;
+  max-width: 500px;
+  width: 100%;
+  border-radius: 8px;
+  margin: 12px 0 16px;
+  box-shadow: 0 2px 12px rgba(0,0,0,.08);
+}
+
+/* Contenedor */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Navegación simple */
+.nav { margin-bottom: 16px; }
+.nav a { margin-right: 12px; font-weight: 600; }
